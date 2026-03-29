@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#4EDAC6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Grid nodes -->
+    <circle cx="64" cy="64" r="10" fill="#4EDAC6"></circle>
+    <circle cx="128" cy="64" r="10" fill="#4EDAC6"></circle>
+    <circle cx="192" cy="64" r="10" fill="#4EDAC6"></circle>
+    
+    <circle cx="64" cy="128" r="10" fill="#4EDAC6"></circle>
+    <circle cx="128" cy="128" r="12" fill="#4EDAC6"></circle>
+    <circle cx="192" cy="128" r="10" fill="#4EDAC6"></circle>
+    
+    <circle cx="64" cy="192" r="10" fill="#4EDAC6"></circle>
+    <circle cx="128" cy="192" r="10" fill="#4EDAC6"></circle>
+    <circle cx="192" cy="192" r="10" fill="#4EDAC6"></circle>
+
+    <!-- Interaction connections -->
+    <line x1="64" y1="64" x2="128" y2="128"></line>
+    <line x1="192" y1="64" x2="128" y2="128"></line>
+    <line x1="64" y1="192" x2="128" y2="128"></line>
+    <line x1="192" y1="192" x2="128" y2="128"></line>
+    <line x1="64" y1="128" x2="128" y2="64"></line>
+    <line x1="192" y1="128" x2="128" y2="192"></line>
+
+  </g>
+</svg>
